@@ -9,7 +9,7 @@ class SolarSystem extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name']; // Zorg dat naam mass-assignable is
+    protected $fillable = ['name']; 
 
     // Relatie: Een SolarSystem heeft veel planeten
     public function planets()
